@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+          integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="/style.css">
+    <title>Home Decor Contact Page</title>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="/"><img class="logo" src="/images/logo.png" alt="website-logo"></a>
+        <input class="hamburger-menu" type="checkbox">
+        <ul class="menu">
+            <li><a href="/">HOME</a></li>
+            <li class="shop-link">SHOP
+                <ul class="submenu">
+                    <li><a href="/pages/lighting.html">LIGHTING</a></li>
+                    <li><a href="/pages/cabinets.html">CABINETS</a></li>
+                    <li><a href="/pages/chairs.html">CHAIRS</a></li>
+                </ul>
+            </li>
+            <li><a href="/pages/about.html">ABOUT</a></li>
+            <li><a class="current-page" href="#">CONTACT</a></li>
+            <li>
+                <a href="/pages/cart.html">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <div class="form-wrap">
+        <h1 class="contact-heading">Contact Us</h1>
+        <form class="contact-form">
+            <div class="field-wrap">
+                <input type="text" class="name" name="name" placeholder="Name">
+            </div>
+            <div class="field-wrap">
+                <input type="text" class="email" name="email" placeholder="Email">
+            </div>
+            <div class="field-wrap">
+                <input type="text" class="subject" name="subject" placeholder="Subject">
+            </div>
+            <div class="field-wrap">
+                <textarea name="message" class="message" placeholder="Message"></textarea>
+            </div>
+            <div class="btn-wrap">
+                <button class="btn btn-form">
+                    <a href="/pages/email-popup.html">SEND</a>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+<footer>
+    <icons-box>
+        <i class="fa-brands fa-facebook-square"></i>
+        <i class="fa-brands fa-instagram-square"></i>
+        <i class="fa-brands fa-pinterest-square"></i>
+    </icons-box>
+    <p>
+        &COPY All rights reserved
+    </p>
+</footer>
+
+</body>
+</html>
