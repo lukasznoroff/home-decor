@@ -57,13 +57,6 @@ li > a:hover {
 	pointer-events: all;
 }
 
-
-
-
-
-
-
-
 @media screen and (max-width: 800px) {
 
 	.line {
@@ -113,7 +106,7 @@ li > a:hover {
 	}
 
 	nav ul {
-		background-color: #3B3B3B;
+		background-color: var(--mobile-bg-color);
 		position: fixed;
 		top: 0;
 		left: 100%;
@@ -149,7 +142,7 @@ li > a:hover {
 		color: #1c1c1c;
 		height: 200px;
 		width: 120px;
-		background-color: #3B3B3B;
+		background-color: var(--mobile-bg-color);
 	}
 
 	.logo {

@@ -53,6 +53,7 @@ cabinets-shop-image {
 }
 
 @media screen and (max-width: 800px) {
+	
 	.wrap-container {
 		display: flex;
 		width: auto;

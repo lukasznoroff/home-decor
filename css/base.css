@@ -2,6 +2,7 @@
 	--bg-color: #586870;
 	--font-color: #FDFDFD;
 	--btn-color: #A4664A;
+	--mobile-bg-color: #3B3B3B;
 }
 
 * {
@@ -29,13 +30,12 @@ a, p, li, h1, h2, h3, h4, h5, h6 {
 	box-shadow: 1px 1px 4px 1px rgb(1 1 1 / 25%);
 	transition: all .4s ease;
 	cursor: pointer;
-	/* border: none; */
 	outline: none;
 	border: 1px solid transparent;
 }
 
 .btn:hover {
-	border: 1px solid #333;
+	border: 1px solid var(--mobile-bg-color);
 
 }
 
